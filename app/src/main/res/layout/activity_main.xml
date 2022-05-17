@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <FrameLayout
+       android:id="@+id/f1_header"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg" />.
+    <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="210px"
+       android:layout_height="210px"
+        android:src="@drawable/profile"
+       android:layout_marginBottom="20dp"
+       android:layout_gravity="center"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="Yanuar Yusuf"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="PENDIDIKAN"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:background="#3C633737"
+        android:gravity=""
+        android:padding="6dp"
+        android:text="Teknik Informatika-Universitas Pelita Bangsa"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="260dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="PELATIHAN"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="280dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="DevSecOps-Kominfo X Cisco"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="320dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="KONTAK"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="Email:yanuaryusuf1997@gmaail.com"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="380dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="HandPhone:081316622611"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:layout_marginTop="410dp"
+        android:background="#3C633737"
+        android:padding="6dp"
+        android:text="Linkedin:https://www.linkedin.com/in/yanuar-yusuf-587860111/"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+</FrameLayout>
+
+
+
+</RelativeLayout>
